@@ -3,9 +3,7 @@
 
 <h4 align="center">
 
-[![WEB CI](https://github.com/sadabnepal/WebdriverIOTypeScriptE2E/actions/workflows/web.yml/badge.svg)](https://github.com/sadabnepal/WebdriverIOTypeScriptE2E/actions/workflows/web.yml)
-
-[![API CI](https://github.com/sadabnepal/WebdriverIOTypeScriptE2E/actions/workflows/api.yml/badge.svg)](https://github.com/sadabnepal/WebdriverIOTypeScriptE2E/actions/workflows/api.yml)
+<h6>TODO: add passing test results</h6>
 
 </h4>
 
@@ -33,14 +31,14 @@ Starting the Application:
 npm start
 ```
 
-The wizard begins with options for testing modules, and depending on the user's selection, the chosen module will either start <b>locally<b> or <b>inside<b> a <b>Docker container<b>. The 'start.js' file, which is developed using the [enquirer](https://www.npmjs.com/package/enquirer) node package, contains the code to manage the wizard and the user's selection.
+The wizard begins with options for testing modules, and depending on the user's selection, the chosen module will either start <b>locally</b> or <b>inside</b> a <b>Docker container</b>. The 'start.js' file, which is developed using the [enquirer](https://www.npmjs.com/package/enquirer) node package, contains the code to manage the wizard and the user's selection.
 The available test module options are UI, API, and Mobile.
 
 -----
 
 ### Web Test
 Install dependencies:
-> To execute the following command, go to the "web" directory first.
+> Prior to running this command, navigate to the "web" directory.
 ```bash
 npm install
 ```
