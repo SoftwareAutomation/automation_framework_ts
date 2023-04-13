@@ -1,0 +1,2 @@
+# automation_framework_ts
+TypeScript automation_framework_js for ServiceAutomation.IO
