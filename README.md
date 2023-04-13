@@ -32,10 +32,9 @@ Starting the Application:
 ```bash
 npm start
 ```
-It start wizard with test module options, based on user selection either of the below module will start <b>locally</b> or inside <b>docker container</b>. Code to control wizard and user selection is available in 'start.js' which is built using [enquirer](https://www.npmjs.com/package/enquirer) node package.<br>
-<b>Test Module Options : </b> | UI | API | Mobile | <br>
-![cli_demo](https://user-images.githubusercontent.com/65847528/152398324-b0e44fd0-acdf-4f5e-b762-acb53a9f361c.gif)
 
+The wizard begins with options for testing modules, and depending on the user's selection, the chosen module will either start <b>locally<b> or <b>inside<b> a <b>Docker container<b>. The 'start.js' file, which is developed using the [enquirer](https://www.npmjs.com/package/enquirer) node package, contains the code to manage the wizard and the user's selection.
+The available test module options are UI, API, and Mobile.
 
 -----
 
