@@ -16,17 +16,20 @@
         "supertest",
         "appium"
     ],
-    "author": "MD SADAB SAQIB",
+    "author": "SoftwareAutomation.io William Russell",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/SoftwareAutomation/automation_framework_ts/issues"
     },
     "homepage": "https://github.com/SoftwareAutomation/automation_framework_ts#readme",
     "dependencies": {
-        "inquirer": "^9.1.5"
+        "inquirer": "^9.1.5",
+        "package.json": "^2.0.1",
+        "ts-node": "^10.9.1"
     },
     "devDependencies": {
         "@types/mocha": "^10.0.1",
-        "chai": "^4.3.7"
+        "chai": "^4.3.7",
+        "jsdoc": "^4.0.2"
     }
 }
